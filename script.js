@@ -1,6 +1,6 @@
 document.querySelector("body").addEventListener('mousemove', eyeball);
 let music = new Audio("i_see_you.mp3");
-alert("Please click anywhere in this window!")
+alert("Please click anywhere in this window to hear something!")
 function eyeball() {
     let eye = document.querySelectorAll(".eye");
     eye.forEach(function(eye) {
