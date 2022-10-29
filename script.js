@@ -14,4 +14,4 @@ function eyeball() {
 
 setTimeout(() => {
     music.play()
-}, 10000);
+}, 9000);
